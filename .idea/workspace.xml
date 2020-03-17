@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2a56ed-961d-4894-ab4f-ebdb419aabbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/samsung/myspring/sample/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/samsung/myspring/sample/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/samsung/myspring/sample/SampleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_12_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/samsung/myspring/sample/JDBCTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myspring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/samsung/myspring/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/samsung/myspring/config/RootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/samsung/myspring/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/samsung/myspring/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/samsung/myspring/config/RootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/samsung/myspring/config/RootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/samsung/myspring/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/samsung/myspring/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/samsung/myspring/sample/Chef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/samsung/myspring/sample/Chef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/samsung/myspring/sample/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/samsung/myspring/sample/Restaurant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.samsung/myspring/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.samsung/myspring/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.samsung/myspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.samsung/myspring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/samsung/myspring/sample/SampleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/samsung/myspring/sample/SampleTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +53,47 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Console" />
+  </component>
+  <component name="RunManager" selected="JUnit.JDBCTests">
+    <configuration name="JDBCTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samsung.myspring.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.samsung.myspring.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.samsung.myspring.sample.JDBCTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samsung.myspring.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.samsung.myspring.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.samsung.myspring.sample.SampleTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JDBCTests" />
+        <item itemvalue="JUnit.SampleTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,13 +113,38 @@
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="837" y="304" key="#com.intellij.ide.util.MemberChooser/2048.68.1920.1057/0.23.2048.1129@0.23.2048.1129" timestamp="1584441937849" />
+    <state width="1878" height="313" key="GridCell.Tab.0.bottom" timestamp="1584450685372">
+      <screen x="2048" y="68" width="1920" height="1057" />
+    </state>
+    <state width="2006" height="313" key="GridCell.Tab.0.bottom/2048.68.1920.1057/0.23.2048.1129@0.23.2048.1129" timestamp="1584449052442" />
+    <state width="1878" height="313" key="GridCell.Tab.0.bottom/2048.68.1920.1057/0.23.2048.1129@2048.68.1920.1057" timestamp="1584450685372" />
+    <state width="1878" height="313" key="GridCell.Tab.0.center" timestamp="1584450685370">
+      <screen x="2048" y="68" width="1920" height="1057" />
+    </state>
+    <state width="2006" height="313" key="GridCell.Tab.0.center/2048.68.1920.1057/0.23.2048.1129@0.23.2048.1129" timestamp="1584449052441" />
+    <state width="1878" height="313" key="GridCell.Tab.0.center/2048.68.1920.1057/0.23.2048.1129@2048.68.1920.1057" timestamp="1584450685370" />
+    <state width="1878" height="313" key="GridCell.Tab.0.left" timestamp="1584450685370">
+      <screen x="2048" y="68" width="1920" height="1057" />
+    </state>
+    <state width="2006" height="313" key="GridCell.Tab.0.left/2048.68.1920.1057/0.23.2048.1129@0.23.2048.1129" timestamp="1584449052441" />
+    <state width="1878" height="313" key="GridCell.Tab.0.left/2048.68.1920.1057/0.23.2048.1129@2048.68.1920.1057" timestamp="1584450685370" />
+    <state width="1878" height="313" key="GridCell.Tab.0.right" timestamp="1584450685371">
+      <screen x="2048" y="68" width="1920" height="1057" />
+    </state>
+    <state width="2006" height="313" key="GridCell.Tab.0.right/2048.68.1920.1057/0.23.2048.1129@0.23.2048.1129" timestamp="1584449052442" />
+    <state width="1878" height="313" key="GridCell.Tab.0.right/2048.68.1920.1057/0.23.2048.1129@2048.68.1920.1057" timestamp="1584450685371" />
     <state x="562" y="249" key="Maven.ArtifactSearchDialog" timestamp="1584443999723">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="562" y="249" key="Maven.ArtifactSearchDialog/2048.68.1920.1057/0.23.2048.1129@0.23.2048.1129" timestamp="1584443999723" />
-    <state x="448" y="260" key="SettingsEditor" timestamp="1584442976991">
-      <screen x="0" y="23" width="2048" height="1129" />
+    <state x="2468" y="288" key="SettingsEditor" timestamp="1584449552037">
+      <screen x="2048" y="68" width="1920" height="1057" />
     </state>
-    <state x="448" y="260" key="SettingsEditor/2048.68.1920.1057/0.23.2048.1129@0.23.2048.1129" timestamp="1584442976991" />
+    <state x="448" y="260" key="SettingsEditor/2048.68.1920.1057/0.23.2048.1129@0.23.2048.1129" timestamp="1584449074957" />
+    <state x="2468" y="288" key="SettingsEditor/2048.68.1920.1057/0.23.2048.1129@2048.68.1920.1057" timestamp="1584449552037" />
+    <state x="2673" y="303" width="670" height="676" key="search.everywhere.popup" timestamp="1584449364598">
+      <screen x="2048" y="68" width="1920" height="1057" />
+    </state>
+    <state x="2673" y="303" width="670" height="676" key="search.everywhere.popup/2048.68.1920.1057/0.23.2048.1129@2048.68.1920.1057" timestamp="1584449364598" />
   </component>
 </project>
